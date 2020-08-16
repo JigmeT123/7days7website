@@ -16,7 +16,7 @@ function Homepage() {
                     <div className={styles.one__container}>
                        <p> <span className={styles.intro}>Introducing </span> 7 Days, <br />
                         7 Website <span className={styles.challenge}>Challenge</span></p>
-                       <h6>loremEx ipsum duis ad mollit adipisicing laborum ad culpa ut in exercitation proident id reprehenderit. Est eiusmod nostrud ipsum deserunt Lorem eiusmod in est incididunt in deserunt ad sit qui. Aliqua reprehenderit sit veniam dolore.</h6>
+                       <h6>Learn and improve skills by taking this challenge.This challenge is to everyone who wants to groom their skills on web designing. And mainly to Bhutanese who are staying home due to the Nation-wide lockdown in response to the COVID19 pandemic. It is an amazing way to spend your stay at home productively by learning and grooming your skills. </h6>
                        <button className={styles.btn}>Tutorial</button>
 
                     </div>
