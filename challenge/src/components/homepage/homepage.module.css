@@ -67,3 +67,74 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.info__section{
+    width: 100%;
+    height: 100vh;
+}
+.info__topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+.attention{
+    color: #2a9d8f;
+}
+.learners{
+    color: rgb(215, 194, 140);
+}
+.info__cardContainer{
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.homepage__footer{
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(40, 35, 61);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.ready{
+    color: #2a9d8f;
+}
+.part{
+    color: rgb(215, 194, 140);
+}
+.footBtn{
+    margin-top: 40px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 45px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+.footBtn > a{
+    text-decoration: none;
+    color: white;
+}
+.footBtn:hover{
+    background-color: #2a9d8f;
+    border: 1px #2a9d8f solid;
+}
+.footBtn > a:hover{
+    text-decoration: none;
+    color: white;
+}
+.homepage__footer > p{
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+}
+.homepage__footer > p > a{
+   text-decoration: none;
+   color: #2a9d8f;
+}
