@@ -10,14 +10,14 @@ function Homepage() {
     return (
         <div className={styles.homepage__container}>
             <div className={styles.homepage}>
-            <Navbar />
+            <Navbar firstLink="rules" secondLink="submit" firstName="Rules" secondName="Submit"/>
             <div className={styles.homepage__mainContent}>
                 <div className={styles.mainContent__one}>
                     <div className={styles.one__container}>
                        <p> <span className={styles.intro}>Introducing </span> 7 Days, <br />
                         7 Website <span className={styles.challenge}>Challenge</span></p>
                        <h6>Learn and improve skills by taking this challenge.This challenge is to everyone who wants to groom their skills on web designing. And mainly to Bhutanese who are staying home due to the Nation-wide lockdown in response to the COVID19 pandemic. It is an amazing way to spend your stay at home productively by learning and grooming your skills. </h6>
-                       <button className={styles.btn}><Link to='./tutorial'>Tutorial</Link></button>
+                       <Link to='./tutorial'><button className={styles.btn}>Tutorial</button></Link>
 
                     </div>
                     
@@ -39,10 +39,9 @@ function Homepage() {
             <div className={styles.homepage__footer}>
                 <h1> <span className={styles.ready}>Ready</span> to be a <span className={styles.part}>part!</span> check out the rules</h1>
                 <button className={styles.footBtn}><Link to='/rules'>Rules</Link></button>
-                <p>Created by <a href="https://www.instagram.com/jigmetashinamgyal/" target="_blank">Jigme Tashi Namgyal</a> with the help of <a href="https://www.instagram.com/ayeitsbhuws/" target="_blank">Bhuwan Sharma</a></p>
+                <p>Created by <a href="https://www.instagram.com/jigmetashinamgyal/" target="_blank">Jigme Tashi Namgyal</a> with the help of <a href="https://www.instagram.com/ayeitsbhuws/" target="_blank">Bhuwan Sharma</a> and <a href="https://www.facebook.com/Kinleytshewanng" target="_blank"> Kindup Wangdi</a> </p>
             </div>
         </div>
     )
 }
-
 export default Homepage
