@@ -4,7 +4,7 @@
     color: white;
 }
 .video__container{
-    height: calc(100vh - 15vh);
+    height: 100vh;
     background-image: url(../../assests/blobs@1x.svg);
     background-repeat: no-repeat;
     display: flex;
@@ -13,6 +13,18 @@
     align-items: center;
     background-color: rgb(40, 35, 61);
 }
+.video__title{
+    margin-bottom: 20px;
+}
 .video__span1{
     color: #2a9d8f;
+}
+
+.basic_store{
+    display: flex;
+}
+
+.basic_store1{
+    display: flex;
+    margin-top: 20px;
 }

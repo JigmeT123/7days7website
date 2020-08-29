@@ -10,7 +10,7 @@ function Homepage() {
     return (
         <div className={styles.homepage__container}>
             <div className={styles.homepage}>
-            <Navbar firstLink="rules" secondLink="submit" firstName="Rules" secondName="Submit"/>
+            <Navbar firstLink="rules" firstName="Rules"/>
             <div className={styles.homepage__mainContent}>
                 <div className={styles.mainContent__one}>
                     <div className={styles.one__container}>
@@ -39,7 +39,7 @@ function Homepage() {
             <div className={styles.homepage__footer}>
                 <h1> <span className={styles.ready}>Ready</span> to be a <span className={styles.part}>part!</span> check out the rules</h1>
                 <button className={styles.footBtn}><Link to='/rules'>Rules</Link></button>
-                <p>Created by <a href="https://www.instagram.com/jigmetashinamgyal/" target="_blank">Jigme Tashi Namgyal</a> with the help of <a href="https://www.instagram.com/ayeitsbhuws/" target="_blank">Bhuwan Sharma</a> and <a href="https://www.facebook.com/Kinleytshewanng" target="_blank"> Kindup Wangdi</a> </p>
+                <p>Created by <a href="https://www.instagram.com/jigmetashinamgyal/" target="_blank">Jigme Tashi Namgyal</a> with the help of <a href="https://www.instagram.com/ayeitsbhuws/" target="_blank">Bhuwan Sharma</a></p>
             </div>
         </div>
     )

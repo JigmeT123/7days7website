@@ -35,36 +35,38 @@
     height: 100%;
     width: 50%;
 }
-.navbar__ul > li {
+.navbar__ul  > a > li {
     list-style: none;
     padding: 15px 50px;
     border-radius: 2px;
 
 }
-.navbar__ul > li:not(:last-child) {
+.navbar__ul > a > li{
     margin-right: 40px;
     background-color: #2a9d8f;
     border: 1px black solid;
     
 
 }
-.navbar__ul > li:not(:last-child):hover {
-   
+.navbar__ul >a > li {
     transition: all 0.1s;
-    transform: scale(1.1);
+    
 }
-.navbar__ul > li:last-child{
-    border: 1px white solid;
-
-}
-.navbar__ul > li:last-child:hover{
+.navbar__ul >a> li:hover{
     background-color: #2a9d8f;
     border: 1px black solid;
+    transform: scale(1.1);
 }
-.navbar__ul > li > a {
+
+.navbar__ul > a {
     color: white;
    text-decoration: none;
    
 }
 
+.navbar__ul > a:hover {
+    color: white;
+   text-decoration: none;
+   
+}
 
