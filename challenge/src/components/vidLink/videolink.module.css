@@ -26,6 +26,9 @@
     display: flex;
     overflow-x: scroll;
 }
+.videos__container::-webkit-scrollbar{
+   display: none;
+}
 
 .basic_store{
     display: flex;

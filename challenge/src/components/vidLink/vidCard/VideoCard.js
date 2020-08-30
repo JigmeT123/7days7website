@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './vid.module.css';
-import {Typography, Card, CardActionArea, CardContent, CardMedia} from '@material-ui/core';
+import {Card, CardActionArea, CardContent, CardMedia} from '@material-ui/core';
 const VideoCard = ({url, imageURL, title, description}) => {
 
     return (
