@@ -4,7 +4,7 @@
     color: white;
 }
 .video__container{
-    height: 100vh;
+    height: 85vh;
     background-image: url(../../assests/blobs@1x.svg);
     background-repeat: no-repeat;
     display: flex;
@@ -15,16 +15,21 @@
 }
 .video__title{
     margin-bottom: 20px;
+    text-align: center;
+
 }
 .video__span1{
     color: #2a9d8f;
+}
+.videos__container{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
 }
 
 .basic_store{
     display: flex;
 }
 
-.basic_store1{
-    display: flex;
-    margin-top: 20px;
-}
+
+

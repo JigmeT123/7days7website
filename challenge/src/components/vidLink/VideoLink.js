@@ -40,10 +40,7 @@ function VideoLink() {
                             imageURL={netlify}
                             title="Netlify"
                             description="Learn how to deploy your website for free in less than a min"/>
-                    </div>
-
-                    <div className={styles.basic_store1}>
-                        <VideoCard
+                             <VideoCard
                             url="https://www.youtube.com/watch?v=DLX62G4lc44&t=6s"
                             imageURL={reactjs}
                             title="React js"
@@ -60,8 +57,10 @@ function VideoLink() {
                             imageURL={xd}
                             title="Netlify"
                             description="Learn how to deploy your website for free in less than a min"/>
+
                     </div>
 
+                       
                 </div>
             </div>
         </div>

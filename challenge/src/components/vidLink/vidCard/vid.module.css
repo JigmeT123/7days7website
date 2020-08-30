@@ -1,7 +1,6 @@
 .card{
     width: 350px;
     margin-right: 20px;
-    
 }
 
 .card:hover{
@@ -30,3 +29,13 @@ h5{
     text-align: center;
 }
 
+@media only screen and (max-width: 650px){
+    .card{
+      width: 200px;
+    }
+    .media{
+        width: 100%;
+        height: 100px;
+    }
+    
+}

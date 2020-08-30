@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .rules__span1{
     color: #2a9d8f;
@@ -44,4 +45,15 @@
 
 .rules__content > ul > li{
     line-height: 70px;
+}
+
+@media only screen and (max-width: 650px){
+    .rules__title{
+        padding-top: 90px;
+    }
+    .rules__content{
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
 }
